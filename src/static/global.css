@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+body {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	color: var(--color-black);
+
+	background-color: var(--color-white);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+:root {
+	--color-black: #121212;
+	--color-white: #fafafa;
+}
+
+#root {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 133%;
+	color: #121212;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}

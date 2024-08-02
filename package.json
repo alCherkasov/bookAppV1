@@ -1,0 +1,25 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Simple book JavaScript application",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.19.1",
+    "rollup-plugin-imagemin": "^0.4.1",
+    "rollup-plugin-import-css": "^3.5.0",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-svg-sprite": "^1.0.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1"
+  }
+}
