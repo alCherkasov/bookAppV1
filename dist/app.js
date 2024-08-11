@@ -1195,7 +1195,7 @@
 			</div>
 			<div class="header__menu">
 					<a class="header__menu-link" href="#">
-							<img src="src/static/search.svg" alt="Search" />
+							<img src="./src/static/search.svg" alt="Search" />
 							Поиск книг
 					</a>
 					<a class="header__menu-link" href="#favorites">
@@ -1260,7 +1260,7 @@
 						<input type="text" class="search__input" placeholder="Найти книгу или автора..." value="${this.state.searchQuery ? this.state.searchQuery : ''}">
 				</div>
 				<button type="" class="search__search-button">
-						<img src="/src/static/search--white.svg" alt="Search">
+						<img src="./src/static/search--white.svg" alt="Search">
 				</button>
 		`;
 			const searchButton = this.el.querySelector('.search__search-button');
